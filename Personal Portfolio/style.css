@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: 50px;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+
+}
+
+nav ul {
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 55px;
+}
+
+.icon i {
+    margin-right: 20px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(black, rgb(43, 41, 41));
+}
+
+.aright {
+    width: 68%;
+    height: 100%;
+    background: transparent;
+}
+
+.aleft {
+    width: 32%;
+    height: 100%;
+    background: transparent;
+}
+
+.aleft h2 {
+    font-size: 50px;
+    color: white;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.aleft p {
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 35px;
+    color: white;
+}
+
+.contact {
+    margin-top: 15%;
+    margin-left: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 6%;
+    border: solid white 1px;
+}
+
+
+.contact p {
+    font-size: 13px;
+    color: white;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.bleft {
+    width: 32%;
+    height: 100%;
+    background-color: white;
+}
+
+.bleft p {
+    text-shadow: 7px 6px 4px rgb(98, 95, 95);
+    color: black;
+    font-size: 50px;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.bright {
+    width: 68%;
+    height: 100%;
+    background-color: white;
+}
+
+.bright p {
+    margin-top: 5%;
+    font-size: 18px;
+
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    height: 13%;
+    width: 20%;
+    background-color: rgb(28, 27, 27);
+    color: white;
+}
+
+.resume a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.third {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(50, 54, 50);
+}
+
+.a3 {
+    margin: auto;
+    width: 80vw;
+    height: 30vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.a3 h2 {
+    margin-top: 10px;
+    color: white;
+    font-size: 40px;
+}
+
+.a3 p {
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.c3 {
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+    background-color: rgb(50, 54, 50);
+}
+
+.c3l {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    width: 50%;
+    height: 100%;
+}
+
+.c3l p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.c3l li {
+    list-style: none;
+    color: white;
+    margin: 15px;
+}
+
+.c3r {
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.r3a {
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10%;
+    width: 70%;
+    background-color: white;
+}
+
+.r3b {
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10%;
+    width: 70%;
+    background-color: white;
+}
+
+.r3c {
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10%;
+    width: 70%;
+    background-color: white;
+}
+
+.r3d {
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10%;
+    width: 70%;
+    background-color: white;
+}
+
+.r3e {
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10%;
+    width: 70%;
+    background-color: white;
+}
+
+.r3f {
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10%;
+    width: 70%;
+    background-color: white;
+}
+
+.r3g {
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10%;
+    width: 70%;
+    background-color: white;
+}
+
+.r3h {
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10%;
+    width: 70%;
+    background-color: white;
+}
+
+.r3a1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100%;
+    width: 20%;
+    background-color: rgb(110, 112, 109);
+}
+
+.r3a2a {
+    height: 100%;
+    width: 70%;
+    background-color: rgb(210, 208, 208);
+}
+
+.r3a2b {
+    height: 100%;
+    width: 75%;
+    background-color: rgb(210, 208, 208);
+}
+
+.r3a2c {
+    height: 100%;
+    width: 63%;
+    background-color: rgb(210, 208, 208);
+}
+
+.r3a2d {
+    height: 100%;
+    width: 60%;
+    background-color: rgb(210, 208, 208);
+}
+
+.r3a2e {
+    height: 100%;
+    width: 70%;
+    background-color: rgb(210, 208, 208);
+}
+
+.r3a2f {
+    height: 100%;
+    width: 60%;
+    background-color: rgb(210, 208, 208);
+}
+
+.r3a2g {
+    height: 100%;
+    width: 45%;
+    background-color: rgb(210, 208, 208);
+}
+
+.r3a2h {
+    height: 100%;
+    width: 30%;
+    background-color: rgb(210, 208, 208);
+}
+
+.fourth {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.fourth .p {
+    text-shadow: 7px 6px 4px rgb(98, 95, 95);
+    color: black;
+    font-size: 50px;
+    padding: 3%;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 33%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.box2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 33%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.abox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    background-color: blue;
+    font-size: 24px;
+    color: white;
+}
+
+.bbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    background-color: blue;
+    font-size: 24px;
+    color: white;
+}
+
+.cbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    background-color: blue;
+    font-size: 24px;
+    color: white;
+}
+
+.footer {
+    width: 100vw;
+    height: 40vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.onef {
+    height: 100%;
+    width: 25%;
+    background-color: transparent;
+}
+
+.onef p {
+    color: white;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.footer i {
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+
+.secf {
+    height: 100%;
+    width: 25%;
+    background-color: transparent;
+}
+
+.thirdf {
+    background-color: transparent;
+    height: 100%;
+    width: 25%;
+}
+
+.i1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.i1 h3 {
+    margin-top: 15px;
+    color: white;
+}
+
+.i2 {
+    margin-top: -15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.i2 h3 {
+    margin-top: 15px;
+    color: white;
+}
+
+.secf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactf {
+    width: 60%;
+    height: 20%;
+    border: solid white 1px;
+}
+
+.contactf p {
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: white;
+}
+
+.thirdf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thirdf p {
+    font-size: 30px;
+    color: white;
+}
